@@ -139,3 +139,82 @@ div.home-versions a:hover {
 .black-bg-nav {
     background-color: black;
 }
+
+.modern-design {
+    padding-top: 129px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.modern-design h1 {
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 1.2em;
+    letter-spacing: 10px;
+    color: #101010;
+}
+
+.modern-p {
+    color: #a0a0a0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 680px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.list-modern-design {
+    margin-top: 80px;
+}
+
+.list-modern-design li {
+    position: relative;
+}
+
+.list-modern-design li div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-modern-design li:first-child div {
+    margin-left: 20px;
+}
+
+.list-modern-design li:last-child div {
+    margin-right: 20px;
+}
+
+.target-content {
+    border: 1px solid red;
+    z-index: 1;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    text-align: center;
+    line-height: 27.2px;
+    margin-bottom: 12px;
+    color: #595959;
+    padding-top: 55px;
+}
+
+.target-content span {
+    font-size: 19px;
+    color: #303030;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    display: block;
+    letter-spacing: 4px;
+}
+
+.target-icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    padding: 12px 20px;
+    border-radius: 50%;
+    margin: 0px !important;
+}
