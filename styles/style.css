@@ -135,3 +135,7 @@ div.home-versions a:hover {
     background-color: black;
     color: white;
 }
+
+.black-bg-nav {
+    background-color: black;
+}
