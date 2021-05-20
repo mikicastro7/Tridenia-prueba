@@ -88,3 +88,50 @@ div.home-versions a:hover {
     filter: brightness(80%);
     object-fit: cover;
 }
+
+.carousel-caption {
+    top: 30%;
+}
+
+.carousel .carousel-indicators button {
+    height: 8px;
+    width: 8px;
+    border: 2px solid white;
+    opacity: 1;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.carousel .carousel-indicators button.active {
+    background-color: white;
+}
+
+.carousel .carousel-caption h5 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+
+.carousel .carousel-caption p {
+    font-size: 17px;
+    width: 720px;
+    margin: auto;
+}
+
+.read-more-link {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-top: 41px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 13px 32px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.read-more-link:hover {
+    background-color: black;
+    color: white;
+}
