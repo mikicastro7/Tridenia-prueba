@@ -137,6 +137,7 @@ div.home-versions a:hover {
 }
 
 .black-bg-nav {
+    transition: 0.3s;
     background-color: black;
 }
 
@@ -217,4 +218,72 @@ div.home-versions a:hover {
     padding: 12px 20px;
     border-radius: 50%;
     margin: 0px !important;
+}
+
+.parallax {
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_15696/v3/wp-content/uploads/2019/09/siyan-ren-14405-unsplash-1.jpg");
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 100px;
+    min-height: 716px;
+}
+
+.parallax-inner {
+    margin: 70px 10% 70px 10%
+}
+
+.bg {
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    height: 100%;
+}
+
+.services-list span {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.services-list p {
+    color: white;
+    font-size: 14px;
+}
+
+.services-list {
+    max-width: 583px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-list li div {
+    position: relative;
+}
+
+.services-list li div div {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    left: -55px;
+    top: 20px;
+}
+
+.movile-img {
+    width: 100%;
+    opacity: 1;
+    height: 645px;
+
 }
