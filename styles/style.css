@@ -352,3 +352,60 @@ div .hover-text-sub {
 .imgs-list li:hover .hover-text {
     display: block;
 }
+
+.parallax-modern {
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_15696/v3/wp-content/uploads/2019/09/image-new-design-4.jpg");
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 122px;
+    padding-bottom: 89px;
+}
+
+.parallax-modern-inner div {
+    width: 596px;
+    background-color: white;
+    opacity: 0.95;
+    padding: 50px 55px 82px 42px;
+    margin-left: 60px;
+}
+
+.parallax-modern-inner div h2 {
+    color: #303030;
+    font-size: 54px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 14.58px;
+    margin-bottom: 18px;
+}
+
+.parallax-modern-inner div p {
+    color: #474747;
+    font-family: "Muli",
+        Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    flex-basis: 100%;
+    margin-bottom: 50px;
+}
+
+.parallax-modern-inner div a {
+    text-decoration: none;
+    padding: 12px 27px 12px 27px;
+    background-color: #d8d8d8;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.parallax-modern-inner div a:hover {
+    background-color: black;
+}
