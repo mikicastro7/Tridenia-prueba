@@ -288,6 +288,10 @@ div.home-versions a:hover {
 
 }
 
+.imgs-list {
+    margin-bottom: 0px;
+}
+
 .imgs-list img {
     width: 100%;
 }
