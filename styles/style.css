@@ -282,7 +282,9 @@ div.home-versions a:hover {
 }
 
 .movile-img {
-    width: 100%;
+    display: block;
+    margin: auto;
+    width: 600px;
     opacity: 1;
     height: 645px;
 
