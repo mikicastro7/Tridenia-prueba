@@ -40,12 +40,52 @@ nav {
 }
 
 div.navbar-icons a {
+    position: relative;
     margin-left: 0px;
-    color: #444444;
+    color: #d8d8d8;
 }
 
 div.navbar-icons a:hover {
+    color: #3b3d42;
     border: 0px;
+}
+
+div.navbar-icons a .cart-number-items {
+    display: block;
+    position: absolute;
+    background-color: #303030;
+    color: white;
+    top: -15px;
+    left: 15px;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+div.navbar-icons .cart-content {
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    left: -170px;
+    width: 250px;
+    height: 138px;
+    display: none;
+    animation-duration: 0.3s;
+}
+
+div.navbar-icons .cart-content h4 {
+    margin: 15px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #3b3d42
+}
+
+.navbar-icons .cart {
+    position: relative;
 }
 
 .right-menu li:hover .dropdown-menu.home-versions {

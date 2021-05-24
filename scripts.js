@@ -8,6 +8,20 @@ $(window).scroll(function () {
     }
 });
 
+$(".cart a").mouseenter(() => {
+    $("div.navbar-icons .cart-content").show();
+});
+
+$(".cart a").mouseleave(() => {
+    $("div.navbar-icons .cart-content").mouseenter(() => {
+        $("div.navbar-icons .cart-content").show();
+    })
+    $("div.navbar-icons .cart-content").mouseleave(() => {
+        $("div.navbar-icons .cart-content").hide();
+    })
+    $("div.navbar-icons .cart-content").hide();
+})
+
 let getModernDesignData = (async () => {
     const response = await fetch("https://www.tridenia.com/maquetacio/list.php");
     const data = await response.json();
