@@ -577,12 +577,17 @@ footer p {
     }
 
     .parallax-modern-inner div {
+        padding: 50px 20px;
         width: 100%;
         margin: auto;
     }
 
+    .parallax-modern-inner div h2 {
+        font-size: 40px;
+    }
+
     .parallax-modern {
-        padding: 90px 30px;
+        padding: 90px 15px;
     }
 
     .parallax-modern {
