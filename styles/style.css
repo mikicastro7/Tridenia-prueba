@@ -364,6 +364,11 @@ div.home-versions a:hover {
     margin-bottom: 64px;
 }
 
+.amazing-work ul {
+    margin: auto;
+    max-width: 1220px;
+}
+
 div.hover-text {
     position: absolute;
     bottom: 10px;
