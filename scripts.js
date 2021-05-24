@@ -28,6 +28,7 @@ $(".bars-button").click(() => {
 
 $(".close-button").click(() => {
     $(".movile-menu").addClass("animate__fadeOutLeft");
+    $(".movile-dropdown").hide();
     setTimeout(() => {
         $(".movile-menu").removeClass("animate__fadeOutLeft");
         $(".movile-menu").hide();
