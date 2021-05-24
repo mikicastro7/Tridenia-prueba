@@ -501,6 +501,10 @@ footer p {
     display: none;
 }
 
+.chevron-carousel {
+    font-size: 40px;
+}
+
 @media only screen and (max-width: 800px) {
     .not-show-movile {
         display: none;
@@ -644,5 +648,25 @@ footer p {
 
     .amazing-work h2 {
         font-size: 27px;
+    }
+
+    .carousel .carousel-caption h5 {
+        font-size: 25px;
+    }
+
+    .carousel .carousel-caption p {
+        width: 100%;
+    }
+
+    button.carousel-control-prev {
+        top: 330px;
+    }
+
+    button.carousel-control-next {
+        top: 330px;
+    }
+
+    .carousel-control-next-icon {
+        font-weight: 900 !important;
     }
 }
