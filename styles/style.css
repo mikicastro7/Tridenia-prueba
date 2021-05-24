@@ -495,6 +495,7 @@ footer p {
 .bars-button {
     color: white;
     display: none;
+    cursor: pointer;
 }
 
 .movile-menu {
@@ -667,4 +668,11 @@ footer p {
         top: 330px;
     }
 
+    .navbar {
+        position: absolute;
+    }
+
+    .black-bg-nav {
+        background-color: transparent;
+    }
 }
