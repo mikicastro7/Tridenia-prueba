@@ -508,6 +508,7 @@ footer p {
 
     .bars-button {
         display: block;
+        width: 64px;
     }
 
     .right-menu {
@@ -520,7 +521,8 @@ footer p {
     }
 
     nav {
-        padding: 60px;
+        padding: 20px;
+        justify-content: center;
     }
 
     .navbar-brand img {
