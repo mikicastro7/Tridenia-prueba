@@ -609,4 +609,30 @@ footer p {
     .target-icon {
         top: 30px;
     }
+
+    .movile-img-container {
+        display: none;
+    }
+
+    .services-div {
+        padding-left: 80px;
+        padding-right: 20px;
+    }
+
+    .parallax-inner {
+        margin: 55px auto;
+    }
+
+    .bg {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .services-list {
+        margin-bottom: 0px;
+    }
+
+    .parallax {
+        background-attachment: scroll;
+    }
 }
