@@ -22,6 +22,25 @@ $(".cart a").mouseleave(() => {
     $("div.navbar-icons .cart-content").hide();
 })
 
+$(".bars-button").click(() => {
+    $(".movile-menu").show();
+})
+
+$(".close-button").click(() => {
+    $(".movile-menu").addClass("animate__fadeOutLeft");
+    setTimeout(() => {
+        $(".movile-menu").removeClass("animate__fadeOutLeft");
+        $(".movile-menu").hide();
+    }, 400)
+})
+
+$(".active").click((e) => {
+    if (!$(".movile-dropdown").is(":visible")) {
+        e.preventDefault();
+        $(".movile-dropdown").show();
+    }
+})
+
 let getModernDesignData = (async () => {
     const response = await fetch("https://www.tridenia.com/maquetacio/list.php");
     const data = await response.json();
