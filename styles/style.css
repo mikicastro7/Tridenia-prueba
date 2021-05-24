@@ -575,4 +575,17 @@ footer p {
     .movile-dropdown .active-home {
         color: #999;
     }
+
+    .parallax-modern-inner div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .parallax-modern {
+        padding: 90px 30px;
+    }
+
+    .parallax-modern {
+        background-attachment: scroll;
+    }
 }
