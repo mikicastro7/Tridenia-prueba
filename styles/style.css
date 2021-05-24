@@ -588,4 +588,20 @@ footer p {
     .parallax-modern {
         background-attachment: scroll;
     }
+
+    p.modern-p {
+        width: 100%;
+    }
+
+    .modern-design {
+        padding: 50px 15px;
+    }
+
+    .modern-design .list-modern-design div.target-content {
+        margin: 30px 0px;
+    }
+
+    .target-icon {
+        top: 30px;
+    }
 }
