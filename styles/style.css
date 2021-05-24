@@ -562,11 +562,12 @@ footer p {
 
     .close-button {
         position: absolute;
-        right: 20%;
-        color: red;
+        right: 0px;
+        color: #3b3d42;
         top: 0px;
         padding: 10px;
         font-weight: 900;
+        cursor: pointer;
     }
 
     .movile-dropdown {
