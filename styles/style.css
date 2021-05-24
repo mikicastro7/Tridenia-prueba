@@ -635,4 +635,12 @@ footer p {
     .parallax {
         background-attachment: scroll;
     }
+
+    .modern-design h1 {
+        font-size: 19px;
+    }
+
+    .amazing-work h2 {
+        font-size: 27px;
+    }
 }
